@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+}
+
+#camera{
+    display: flex;
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    transform: scaleX(-1);
+}
+
+.camera-div {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+#main-header{
+    text-align: center;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#buttons>button{
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+#start-button{
+    background-color: rgb(47, 209, 38);
+}
+
+#stop-button{
+    background-color: rgb(255, 46, 46);
+}
+
+#buttons>button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
